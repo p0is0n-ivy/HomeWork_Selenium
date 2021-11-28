@@ -1,0 +1,393 @@
+{
+  "id": "f8226d20-c636-4ded-b3e1-ce0a45491e41",
+  "version": "2.0",
+  "name": "test kojinka.ru",
+  "url": "https://kojinka.ru",
+  "tests": [{
+    "id": "997871eb-d3a7-4b4c-bea4-a952daf34811",
+    "name": "Регистрация в личном кабинете",
+    "commands": [{
+      "id": "eda78f5a-2ea5-43c5-ac17-8f01f8df05d9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c4860cd-76a9-4798-9398-cbd5e5cf6b60",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a51b4d0-0b36-4fb0-bbb2-109618851d0e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[contains(.,'Регистрация')]",
+      "targets": [
+        ["css=.header-last-mini-menu a:nth-child(1) > li", "css:finder"],
+        ["xpath=//div[5]/ul/a/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9baa0c45-e8f1-4d35-b6f4-238c64707783",
+      "comment": "",
+      "command": "click",
+      "target": "name=register[email]",
+      "targets": [
+        ["id=register_email", "id"],
+        ["name=register[email]", "name"],
+        ["css=#register_email", "css:finder"],
+        ["xpath=//input[@id='register_email']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleregister']/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e6af964-7acd-43c8-acc9-a966dc6f097c",
+      "comment": "",
+      "command": "type",
+      "target": "name=register[email]",
+      "targets": [
+        ["id=register_email", "id"],
+        ["name=register[email]", "name"],
+        ["css=#register_email", "css:finder"],
+        ["xpath=//input[@id='register_email']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleregister']/div/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": "irinas789@mail.ru"
+    }, {
+      "id": "66a266e1-469b-4c25-9708-93198ba6e242",
+      "comment": "",
+      "command": "click",
+      "target": "name=register[firstname]",
+      "targets": [
+        ["id=register_firstname", "id"],
+        ["name=register[firstname]", "name"],
+        ["css=#register_firstname", "css:finder"],
+        ["xpath=//input[@id='register_firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleregister']/div/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97006602-44f3-489e-a544-51df9cb43ec3",
+      "comment": "",
+      "command": "type",
+      "target": "name=register[firstname]",
+      "targets": [
+        ["id=register_firstname", "id"],
+        ["name=register[firstname]", "name"],
+        ["css=#register_firstname", "css:finder"],
+        ["xpath=//input[@id='register_firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleregister']/div/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Ирина"
+    }, {
+      "id": "8c0654f0-dbb7-4ec8-8e99-b87309282358",
+      "comment": "",
+      "command": "click",
+      "target": "name=register[telephone]",
+      "targets": [
+        ["id=register_telephone", "id"],
+        ["name=register[telephone]", "name"],
+        ["css=#register_telephone", "css:finder"],
+        ["xpath=//input[@id='register_telephone']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleregister']/div/fieldset/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d3bd42a-ceec-432b-aca4-4d5c80e94d9d",
+      "comment": "",
+      "command": "type",
+      "target": "name=register[telephone]",
+      "targets": [
+        ["id=register_telephone", "id"],
+        ["name=register[telephone]", "name"],
+        ["css=#register_telephone", "css:finder"],
+        ["xpath=//input[@id='register_telephone']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleregister']/div/fieldset/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "8-911-777-55-66"
+    }, {
+      "id": "ef38e327-2773-4848-b622-36331d20f661",
+      "comment": "",
+      "command": "click",
+      "target": "name=register[password]",
+      "targets": [
+        ["id=register_password", "id"],
+        ["name=register[password]", "name"],
+        ["css=#register_password", "css:finder"],
+        ["xpath=//input[@id='register_password']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleregister']/div/fieldset/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f6c28f7-8e04-40cf-bb02-9c3548f686f8",
+      "comment": "",
+      "command": "type",
+      "target": "name=register[password]",
+      "targets": [
+        ["id=register_password", "id"],
+        ["name=register[password]", "name"],
+        ["css=#register_password", "css:finder"],
+        ["xpath=//input[@id='register_password']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleregister']/div/fieldset/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "qwe123"
+    }, {
+      "id": "723f2c6a-99ee-4d96-b451-48b1534adfaf",
+      "comment": "",
+      "command": "click",
+      "target": "name=register[confirm_password]",
+      "targets": [
+        ["id=register_confirm_password", "id"],
+        ["name=register[confirm_password]", "name"],
+        ["css=#register_confirm_password", "css:finder"],
+        ["xpath=//input[@id='register_confirm_password']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleregister']/div/fieldset/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a693f48-d99f-4b4f-9626-54cbbf34d36a",
+      "comment": "",
+      "command": "type",
+      "target": "name=register[confirm_password]",
+      "targets": [
+        ["id=register_confirm_password", "id"],
+        ["name=register[confirm_password]", "name"],
+        ["css=#register_confirm_password", "css:finder"],
+        ["xpath=//input[@id='register_confirm_password']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleregister']/div/fieldset/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "qwe123"
+    }, {
+      "id": "a4536947-00ea-4c89-b69a-1085e269a413",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(.,'Продолжить')]",
+      "targets": [
+        ["id=simpleregister_button_confirm", "id"],
+        ["linkText=Продолжить", "linkText"],
+        ["css=#simpleregister_button_confirm", "css:finder"],
+        ["xpath=//a[@id='simpleregister_button_confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleregister']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Продолжить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cf29485e-ee7a-4257-b880-da82de203e75",
+    "name": "Изменение пароля в личном кабинете",
+    "commands": [{
+      "id": "4b067aee-b550-4a9e-baa7-7fe75dca702a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a684ab60-7fef-4160-8d2f-1d6928d5a663",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "973x1005",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9fd63fb-92ec-4619-a219-2bf3cc5feecc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login",
+      "targets": [
+        ["css=.login", "css:finder"],
+        ["xpath=//div[5]/ul/a[2]/li", "xpath:position"],
+        ["xpath=//li[contains(.,'ВОЙТИ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffabb016-40d2-46f9-b6c0-4b1582da8b66",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.basket-new-design",
+      "targets": [
+        ["css=.basket-new-design", "css:finder"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0692b2ef-c38f-4cdb-bd67-ff48b24ed048",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.basket-new-design",
+      "targets": [
+        ["css=.basket-new-design", "css:finder"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c340ee89-1cd0-47f0-a222-08040e83d5c0",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.content > input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='contentwrapper']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd8d7370-0de3-4b93-aa89-b942c6d19f24",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.content > input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='contentwrapper']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "irinas8@mail.ru"
+    }, {
+      "id": "815e2260-687b-4e86-b07a-d422ab55c48d",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(9)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='contentwrapper']/div[2]/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dcad8f9-7791-4bf5-891d-b039a96a3078",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(9)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='contentwrapper']/div[2]/div/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "qwe123"
+    }, {
+      "id": "2988efdc-bd26-465f-9b5b-d3b58fdbba02",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@value='Войти']",
+      "targets": [
+        ["css=.button:nth-child(14)", "css:finder"],
+        ["xpath=//input[@value='Войти']", "xpath:attributes"],
+        ["xpath=//div[@id='contentwrapper']/div[2]/div/form/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b5cda37-0846-4203-bedc-d1b742c9e139",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Изменить свой пароль",
+      "targets": [
+        ["linkText=Изменить свой пароль", "linkText"],
+        ["css=.content:nth-child(4) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Изменить свой пароль')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://kojinka.ru/index.php?route=account/password')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Изменить свой пароль')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c0d1747-b3c9-4373-9112-24807b4044c9",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71053d5b-e5cc-48e1-acf5-bbc9d3f6efc5",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "qwe12345"
+    }, {
+      "id": "267153dd-a882-42c3-907f-ea32fd1cebb0",
+      "comment": "",
+      "command": "click",
+      "target": "name=confirm",
+      "targets": [
+        ["name=confirm", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/div/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "679d1835-02a0-4f81-8449-5ae1430db540",
+      "comment": "",
+      "command": "type",
+      "target": "name=confirm",
+      "targets": [
+        ["name=confirm", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/div/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "qwe12345"
+    }, {
+      "id": "46cc1d40-c269-48b5-86e7-13560ffa95b3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@value='Продолжить']",
+      "targets": [
+        ["css=.right > .button", "css:finder"],
+        ["xpath=//input[@value='Продолжить']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a9878bb6-43b3-4851-bb03-8126d427567d",
+    "name": "Личный кабинет",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["997871eb-d3a7-4b4c-bea4-a952daf34811", "cf29485e-ee7a-4257-b880-da82de203e75"]
+  }],
+  "urls": ["https://kojinka.ru/"],
+  "plugins": []
+}
